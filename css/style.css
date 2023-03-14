@@ -38,9 +38,23 @@ figure > figcaption {
     font-style: italic;
 }
 /* 8 */
-
+a {
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+    color: #ff3530;
+}
 /* 9 */
-
+.author, time {
+    font-size: 0.85rem;
+}
 /* 10 */
-
+.author {
+    margin-bottom: 0;
+}
 /* 11 */
+figure {
+    margin: 1.25em 0;
+}
